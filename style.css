@@ -57,3 +57,76 @@ h1,h2{
     color: var( --white);
 }
 
+.title{
+    width: 80%;
+    margin: auto;
+}
+
+h3{
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.summary{
+    width: 80%;
+    padding:1.5rem 1rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+
+.reaction{
+    background-color: hsla(0, 100%, 67%, 0.05);    
+}
+
+.reactionColor{
+    color: var(--lightRed);
+    font-weight: 800;
+}
+
+.memory{
+    background-color: hsla(39, 100%, 56%, 0.05);
+}
+
+.memoryColor{
+    color: var(--orangeyYellow);
+    font-weight: 800;
+}
+
+.verbal{
+    background-color: hsla(166, 100%, 37%,0.05);
+}
+
+.verbalColor{
+    color: var(--greenTeal);
+    font-weight: 800;
+}
+
+.visual{
+    background-color: hsla(234, 85%, 45%,hsla(0, 100%, 67%, 0.05));
+}
+
+.visualColor{
+    color: var(--cobaltBlue);
+    font-weight: 800;
+}
+
+.action{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.numberColor{
+    color: var(--darkGrayBlue);
+}
